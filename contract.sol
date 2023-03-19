@@ -24,7 +24,7 @@ contract YourCollectionName is  ERC721Enumerable, Pausable, Ownable {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://bafybeib6k2drj6me247gemy5wouaxs2hqusn52dnnkgz22smaqrwyg33h4/";
+        return "ipfs://your_cid/";
     }
 
     function pause() public onlyOwner {
